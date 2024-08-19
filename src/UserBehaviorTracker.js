@@ -109,7 +109,7 @@ const UserBehaviorTracker = () => {
             browser_info: getBrowserInfo(),  
         };
     
-        axios.post('http://localhost:8000/api/behavior/', data)
+        axios.post('http://13.236.70.75:8000/api/behavior/', data)
             .then(response => {
                 console.log('Data sent successfully:', response.data);
             })

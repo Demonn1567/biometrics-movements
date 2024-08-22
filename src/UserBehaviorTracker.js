@@ -117,6 +117,7 @@ const UserBehaviorTracker = () => {
         console.error('Error sending data:', error);
     });
 
+    };
     
 
     useEffect(() => {
